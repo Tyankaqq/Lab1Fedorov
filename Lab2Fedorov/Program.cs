@@ -1,4 +1,4 @@
-﻿
+//Высокий уровень 21 варинат
 Console.Write("введите x:");
 double x = double.Parse(Console.ReadLine());
 double sh_x = (Math.Exp(x) - Math.Exp(-x)) / 2;
