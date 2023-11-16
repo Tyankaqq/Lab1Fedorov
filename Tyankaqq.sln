@@ -35,6 +35,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab 3.3", "lab 3.3\lab 3.3.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "omglessgo", "omglessgo\omglessgo.csproj", "{D901CFEF-78F6-4DF0-9185-1D4CF04DF5F1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab 4.1", "Lab 4.1\Lab 4.1.csproj", "{84E5E2A8-B636-4C0D-B53A-1A2132345FA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab 4.2", "Lab 4.2\Lab 4.2.csproj", "{D2BB6231-9232-4063-A096-6AEAD9288008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{D901CFEF-78F6-4DF0-9185-1D4CF04DF5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D901CFEF-78F6-4DF0-9185-1D4CF04DF5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D901CFEF-78F6-4DF0-9185-1D4CF04DF5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E5E2A8-B636-4C0D-B53A-1A2132345FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E5E2A8-B636-4C0D-B53A-1A2132345FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E5E2A8-B636-4C0D-B53A-1A2132345FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E5E2A8-B636-4C0D-B53A-1A2132345FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BB6231-9232-4063-A096-6AEAD9288008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BB6231-9232-4063-A096-6AEAD9288008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BB6231-9232-4063-A096-6AEAD9288008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BB6231-9232-4063-A096-6AEAD9288008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
