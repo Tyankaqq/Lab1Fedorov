@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+//Средний уровень 3 вариант
 
 try
 {
