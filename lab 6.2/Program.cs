@@ -1,4 +1,5 @@
-﻿using Lab62Fedorov;
+//cредний уровень вариант 6
+using Lab62Fedorov;
 
 double[,] matrix = Class1.InitializeMatrix();
 double minDiagonalElement = Class1.FindMinDiagonalElement(matrix);

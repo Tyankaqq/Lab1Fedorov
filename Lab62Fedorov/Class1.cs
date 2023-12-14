@@ -1,4 +1,5 @@
-﻿namespace Lab62Fedorov
+//вариант 6 средний уровень
+namespace Lab62Fedorov
 {
     public class Class1
     {
