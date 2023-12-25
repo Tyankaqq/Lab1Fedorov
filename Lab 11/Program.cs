@@ -1,4 +1,27 @@
-﻿
+﻿try
+{
+    Console.Write("Введите часы: ");
+    int hours = int.Parse(Console.ReadLine());
+
+    Console.Write("Введите минуты: ");
+    int minutes = int.Parse(Console.ReadLine());
+
+    Console.Write("Введите секунды: ");
+    int seconds = int.Parse(Console.ReadLine());
+
+    Time time = new Time(hours, minutes, seconds);
+    Console.WriteLine();
+    Console.WriteLine($"Количество секунд в указанном времени: {time.TotalSeconds()}");
+    Console.WriteLine();
+
+    Console.WriteLine("Увеличение времени на 5 секунд");
+    time.AddSeconds(5);
+    time.Print();
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
 
 class Time
 {
@@ -55,33 +78,4 @@ class Time
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        try
-        {
-            Console.Write("Введите часы: ");
-            int hours = int.Parse(Console.ReadLine());
 
-            Console.Write("Введите минуты: ");
-            int minutes = int.Parse(Console.ReadLine());
-
-            Console.Write("Введите секунды: ");
-            int seconds = int.Parse(Console.ReadLine());
-
-            Time time = new Time(hours, minutes, seconds);
-            Console.WriteLine();
-            Console.WriteLine($"Количество секунд в указанном времени: {time.TotalSeconds()}");
-            Console.WriteLine();
-
-            Console.WriteLine("Увеличение времени на 5 секунд");
-            time.AddSeconds(5);
-            time.Print();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-    }
-}
